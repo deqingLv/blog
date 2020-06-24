@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://fatelvde.github.io/blog/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://fatelvde.github.io/blog/css/github.css" />
+    
+    <link crossorigin="anonymous" media="(prefers-color-scheme: dark)" rel="stylesheet"
+        href="https://fatelvde.github.io/blog/css/dark.css" />
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="基于GitHub Pages &#43; Hugo搭建的个人博客，给大家介绍下搭建过程" />
+    <meta name="keywords"
+        content="Hugo, Blog" />
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://fatelvde.github.io/blog/posts/make-blog-with-hugo-github-pages/" />
+
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Make blog with hugo and github-pages - 嵛山的下午茶" />
+    <meta name="twitter:description"
+        content="基于GitHub Pages &#43; Hugo搭建的个人博客，给大家介绍下搭建过程" />
+    <meta name="twitter:site" content="https://fatelvde.github.io/blog/" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:image"
+        content="https://fatelvde.github.io/blog/">
+
+    
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Make blog with hugo and github-pages - 嵛山的下午茶">
+    <meta property="og:description"
+        content="基于GitHub Pages &#43; Hugo搭建的个人博客，给大家介绍下搭建过程" />
+    <meta property="og:url" content="https://fatelvde.github.io/blog/posts/make-blog-with-hugo-github-pages/" />
+    <meta property="og:site_name" content="Make blog with hugo and github-pages" />
+    <meta property="og:image"
+        content="https://fatelvde.github.io/blog/">
+    <meta property="og:image:width" content="2048">
+    <meta property="og:image:height" content="1024">
+    
+    <meta property="article:published_time" content="2020-06-24 12:27:43 &#43;0800 CST" />
+    
+
+    
+    
+
+    
+    
+
+    <title>Make blog with hugo and github-pages - 嵛山的下午茶</title>
+
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://fatelvde.github.io/blog/images/favicon.ico">
+    <meta name="theme-color" content="#1e2327">
+
+    
+    
+
+    
+</head>
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+        <div class="Header-item d-none d-lg-flex">
+            <a class="Header-link" href="https://fatelvde.github.io/blog/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div
+            class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+                role="combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox"
+                aria-expanded="false">
+                <div class="position-relative">
+                </div>
+            </div>
+        </div>
+        <nav class="d-flex" aria-label="Global">
+            <a class="js-selected-navigation-item Header-link py-lg-3">&nbsp;</a>
+        </nav>
+        <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative" style="margin-right: auto;">
+            <a class="Header-link" href="https://fatelvde.github.io/blog/" aria-label="Homepage"
+                data-ga-click="Header, go to dashboard, icon:logo">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+                    width="32" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                </svg>
+            </a>
+        </div>
+        <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+            <details class="details-overlay details-reset">
+                <summary class="Header-link" aria-label="View profile and more"
+                    data-ga-click="Header, show menu, icon:avatar">
+                    
+                    <img alt="" class="avatar" src="https://avatars3.githubusercontent.com/u/6064297?s=460&amp;u=59de91a71b664110669fa87ad15110e12e3250ad&amp;v=4" height="20" width="20">
+                    
+                </summary>
+            </details>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled="">
+    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main>
+            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+                    <div class="mb-3 d-flex">
+                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
+                            <a class="avatar mr-1" href="https://fatelvde.github.io/blog/about/">
+                                
+
+                                <img src="https://avatars3.githubusercontent.com/u/6064297?s=460&amp;u=59de91a71b664110669fa87ad15110e12e3250ad&amp;v=4" width="26" height="26">
+                                
+                            </a>
+                            <span class="author"><a href="https://fatelvde.github.io/blog/">嵛山</a></span>
+                            <span class="path-divider">/</span>
+                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
+                                    href="https://fatelvde.github.io/blog/posts/make-blog-with-hugo-github-pages/">Make blog with hugo and github-pages</a></strong>
+
+                            <div class="d-block text-small text-gray">
+                                Created <time-ago datetime="2020-06-24" class="no-wrap"
+                                    title="Created at 2020/06/24">
+                                    2020-06-24</time-ago>
+                                <span class="file-info-divider"></span>
+                                Modified <time-ago datetime="2020-06-24" class="no-wrap"
+                                    title="Modified  at 2020/06/24">
+                                    2020-06-24</time-ago>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav  p-responsive">
+                <div class="repository-content ">
+                    <div class="Box mt-3 position-relative">
+                        <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+                            <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                                1338 Words
+                                
+                            </div>
+                        </div>
+
+                        <div id="readme" class="Box-body readme blob instapaper_body js-code-block-container">
+                            <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>基于GitHub Pages + Hugo搭建的个人博客，给大家介绍下搭建过程。</p>
+<h1 id="序言">序言</h1>
+<p>博客还是一个开发者很好的名片，不仅可以记录点滴，还能让更多人认识你了解你，为你赢来潜在的机会。
+开发者另个好名片就是代码了，以GitHub上开源的代码项目最为著名，可以主导或者参与到优秀的项目中，提升知名度。
+为了和代码一起，我选择GitHub-pages来搭建个人博客，由于现在钟爱Golang，所以作为Hugo作为博客搭建的工具。
+下面记录下基于Hugo和GitHub-pages搭建个人博客的方法</p>
+<h1 id="前提">前提</h1>
+<ol>
+<li>GitHub账号： <a href="https://github.com/join">点此创建</a></li>
+<li>Hugo安装: 安装方法：<a href="https://gohugo.io/getting-started/installing#macos">macOS</a> , <a href="https://gohugo.io/getting-started/installing#windows">Windows</a> , <a href="https://gohugo.io/getting-started/installing#linux">Linux</a>.</li>
+</ol>
+<p>因为我使用的是macOS，所以下面的操作环境都在mac下。
+mac 执行安装Hugo</p>
+<pre><code>brew install hugo
+</code></pre><h1 id="利用hugo建博客">利用Hugo建博客</h1>
+<h2 id="新增站点">新增站点</h2>
+<p>选择一个存在站点的目录，我的是在 /Users/Archer/Personal/Github 目录下</p>
+<p>在终端（terminal）上操作，cd到存放站点的目录，新建站点，我的站点名就叫blog。</p>
+<pre><code>cd /Users/Archer/Personal/Github
+
+hugo new site blog
+
+Congratulations! Your new Hugo site is created in /Users/Archer/Personal/Github/blog.
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the &quot;hugo new theme &lt;THEMENAME&gt;&quot; command.
+2. Perhaps you want to add some content. You can add single files
+   with &quot;hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&quot;.
+3. Start the built-in live server via &quot;hugo server&quot;.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+
+</code></pre><p>cd 到新生成的目录下，通过git init初始化</p>
+<pre><code>cd blog &amp;&amp; git init
+</code></pre><h2 id="安装主题">安装主题</h2>
+<p>从<a href="https://themes.gohugo.io/tags/portfolio/">主题市场</a>选择一个喜欢的主题，快速搭建好看的站点吧。</p>
+<p>不同主题的使用方法也不同，我选择了一个GitHub风格的主题：<a href="https://themes.gohugo.io/github-style/">github-style</a> ,感谢<a href="https://github.com/MeiK2333">MeiK</a>的创作</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/9fa6ba1ad22946393b69d2ddb0c7ca58d43409b5/b21f8/github-style/screenshot-github-style_hu8fd5979415d309ffffa537b9d823e1c2_209006_750x500_fill_catmullrom_top_2.png" alt=""></p>
+<p>在站点目录下</p>
+<pre><code># git submodule add &lt;LINK_TO_THEME_REPO&gt; themes/&lt;THEME_NAME&gt;. 库下载地址必须是https
+
+git submodule add https://github.com/MeiK2333/github-style.git themes/github-style
+
+# echo 'theme = &quot;&lt;THEME_NAME&gt;&quot;' &gt;&gt; config.toml
+
+echo 'theme = &quot;github-style&quot;' &gt;&gt; config.toml
+
+
+</code></pre><p>config.toml像这样</p>
+<pre><code>cat config.toml
+
+baseURL = &quot;http://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+theme = &quot;github-style&quot;
+</code></pre><h2 id="测试站点">测试站点</h2>
+<p>通过hugo启动本地服务</p>
+<pre><code>hugo server
+</code></pre><p>在浏览器访问 <a href="http://localhost:1313">http://localhost:1313</a></p>
+<p>至此本地的个人博客站点就完成了。</p>
+<p>可以通过</p>
+<pre><code>hugo new posts/first-post.md
+</code></pre><p>发布你的第一篇博客</p>
+<h1 id="利用github-pages提供免费的网页服务">利用GitHub Pages提供免费的网页服务</h1>
+<h2 id="创建博客用的代码库">创建博客用的代码库</h2>
+<p>首先在GitHub建立一个空的公开库，由于之前已经在博客目录做了git init，所以可以将博客目录内容推送到GitHub仓库上</p>
+<pre><code>git remote add origin git@github.com:fatelvde/blog.git
+git add .
+git commit -m 'init blog'
+git push --set-upstream origin master
+
+</code></pre><p>这样一来，博客的所有内容就都在GitHub库的master分支上了。</p>
+<h2 id="开启github-pages服务">开启GitHub Pages服务</h2>
+<p>在GitHub的库页面上通过 <strong>Settings &gt; Options &gt; Github Pages</strong></p>
+<p><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--hobhtfbi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/ke0v4am83j8j5fwc2qtx.png" alt=""></p>
+<p>由于GitHub Pages默认是基于<a href="https://jekyllrb.com/">Jekyll</a>来建站的，而Hugo并不是，GitHub Pages也可以支持纯静态网站资源来提供服务。</p>
+<p><strong>划重点</strong>：在GitHub Pages的源分支选择&quot;master branches /docs folder&rdquo;, 只使用/docs目录来提供网页服务。</p>
+<p>Hugo可以通过<code>hogo</code>命令进行发布构建，发布结果可指定/docs目录。
+修改config.toml</p>
+<pre><code>echo 'publishDir = &quot;docs&quot;' &gt;&gt; config.toml
+
+cat config.toml
+
+baseURL = &quot;http://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+theme = &quot;github-style&quot;
+publishDir = &quot;docs&quot;
+
+</code></pre><p>执行<code>hugo</code> 构建， 得到/docs目录，再把/docs所有内容进行提交</p>
+<pre><code>hugo
+
+git add .
+git commit -m 'init docs'
+git push
+
+</code></pre><p>GitHub仓库收到提交会自动构建Pages服务。在<strong>Code</strong>可以找到<strong>Environments</strong></p>
+<p><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--r-vTxGC4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/rpegy86d92hwm0b9ogj4.png" alt=""></p>
+<p>通过View deployment就能访问个人博客了。 这个地址和域名还可以在GitHub Pages设置里进行修改。</p>
+<h2 id="博客发布">博客发布</h2>
+<p>上面配置完后，博客的写作和发布过程如下</p>
+<pre><code># 创建
+hugo new posts/xxxx.md
+
+# 写博客
+vim xx/xx/xxxx.md
+
+# 本地测试
+hugo server
+
+# 构建
+hugo
+
+# 提交到GitHub
+git add .
+git commit -m 'xxx'
+git push
+
+# 浏览GitHub Pages，查看发布效果
+
+
+</code></pre><p>下面是我的个人博客: <a href="https://fatelvde.github.io/blog/">https://fatelvde.github.io/blog</a></p>
+<p>欢迎勾搭</p>
+</article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<div class="utterances"></div>
+
+<script>
+    var systemThemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    var systemTheme = systemThemeMediaQuery.matches ? 'dark' : 'light';
+    var utterancesTheme = systemTheme === 'dark' ? 'github-dark' : 'github-light';
+    var utterancesScript = document.createElement('script');
+    utterancesScript.src = 'https://utteranc.es/client.js';
+    utterancesScript.setAttribute('repo', 'example\/example.github.io');
+    utterancesScript.setAttribute('issue-term', 'title');
+    utterancesScript.setAttribute('theme', utterancesTheme);
+    utterancesScript.setAttribute('crossorigin', 'anonymous');
+    utterancesScript.setAttribute('async', '');
+    document.querySelector('.utterances').appendChild(utterancesScript);
+</script>
+<noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+            <li class="mr-3 mr-lg-0"></a></li>
+        </ul>
+
+        <a aria-label="Homepage" title="嵛山的下午茶" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://fatelvde.github.io/blog/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24"
+                aria-hidden="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://fatelvde.github.io/blog/js/frameworks.js"></script>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://fatelvde.github.io/blog/js/github-bootstrap.js"></script>
+<script src="https://fatelvde.github.io/blog/js/stop.js"></script>
+<script src="https://fatelvde.github.io/blog/js/contributions.js"></script>
+
+</body>
+
+</html>

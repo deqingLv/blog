@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>First Post</title>
-      <link>https://fatelvde.github.io/blog/posts/first-post/</link>
+      <title>Make blog with hugo and github-pages</title>
+      <link>https://fatelvde.github.io/blog/posts/make-blog-with-hugo-github-pages/</link>
       <pubDate>Wed, 24 Jun 2020 12:27:43 +0800</pubDate>
       
-      <guid>https://fatelvde.github.io/blog/posts/first-post/</guid>
-      <description>hello blog</description>
+      <guid>https://fatelvde.github.io/blog/posts/make-blog-with-hugo-github-pages/</guid>
+      <description>基于GitHub Pages + Hugo搭建的个人博客，给大家介绍下搭建过程</description>
     </item>
     
     <item>
