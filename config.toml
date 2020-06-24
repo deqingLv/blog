@@ -2,7 +2,7 @@ baseURL = "https://fatelvde.github.io/blog/"
 languageCode = "en-us"
 title = "嵛山的下午茶"
 theme = "github-style"
-
+publishDir = "docs"
 
 [params]
   author = "嵛山"
