@@ -123,7 +123,7 @@ hugo new posts/first-post.md
 首先在GitHub建立一个空的公开库，由于之前已经在博客目录做了git init，所以可以将博客目录内容推送到GitHub仓库上
 
 ```
-git remote add origin git@github.com:fatelvde/blog.git
+git remote add origin git@github.com:deqingLv/blog.git
 git add .
 git commit -m 'init blog'
 git push --set-upstream origin master
@@ -203,7 +203,7 @@ git push
 ```
 
 
-下面是我的个人博客: [https://fatelvde.github.io/blog](https://fatelvde.github.io/blog/)
+下面是我的个人博客: [https://deqinglv.github.io/blog](https://deqinglv.github.io/blog/)
 
 欢迎勾搭
 
