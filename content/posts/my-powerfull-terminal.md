@@ -1,4 +1,13 @@
-iTerm2 + zsh + oh-my-zsh The Most Power Full Terminal on my mac.
+---
+title: "My Powerfull Terminal"
+date: 2022-11-10T22:38:03+08:00
+
+keywords: ["iTerm2", "oh-my-zsh", "zsh"]
+summary: "iTerm2 + zsh + oh-my-zsh The Most PowerFull Terminal on my macbook"
+
+---
+
+iTerm2 + zsh + oh-my-zsh The Most PowerFull Terminal on my macbook.
 
 # Install
 
