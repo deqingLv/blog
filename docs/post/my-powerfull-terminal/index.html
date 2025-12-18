@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://deqinglv.github.io/blog/css/light.css' />
     <link rel="stylesheet" href='https://deqinglv.github.io/blog/css/dark.css' />
     <link rel="stylesheet" href='https://deqinglv.github.io/blog/css/syntax.css' />
-    <title>About - 山的下午茶</title>
+    <title>My Powerfull Terminal - 山的下午茶</title>
     
     <link rel="icon" type="image/x-icon" href='https://deqinglv.github.io/blog/images/favicon.ico'>
     
@@ -21,19 +21,17 @@
 
     
     <meta name="description"
-  content="About me
-" />
+  content="iTerm2 &#43; zsh &#43; oh-my-zsh The Most PowerFull Terminal on my macbook" />
 <meta name="keywords"
-  content='blog, Deqing, Deqing Lv, google analytics' />
+  content='iTerm2, oh-my-zsh, zsh' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://deqinglv.github.io/blog/about/" />
+<link rel="canonical" href="https://deqinglv.github.io/blog/post/my-powerfull-terminal/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="About - 山的下午茶" />
+<meta name="twitter:title" content="My Powerfull Terminal - 山的下午茶" />
 <meta name="twitter:description"
-  content="About me
-" />
+  content="iTerm2 &#43; zsh &#43; oh-my-zsh The Most PowerFull Terminal on my macbook" />
 <meta name="twitter:site" content="https://deqinglv.github.io/blog/" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image"
@@ -41,18 +39,17 @@
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="About - 山的下午茶">
+<meta property="og:title" content="My Powerfull Terminal - 山的下午茶">
 <meta property="og:description"
-  content="About me
-" />
-<meta property="og:url" content="https://deqinglv.github.io/blog/about/" />
-<meta property="og:site_name" content="About" />
+  content="iTerm2 &#43; zsh &#43; oh-my-zsh The Most PowerFull Terminal on my macbook" />
+<meta property="og:url" content="https://deqinglv.github.io/blog/post/my-powerfull-terminal/" />
+<meta property="og:site_name" content="My Powerfull Terminal" />
 <meta property="og:image"
   content="https://deqinglv.github.io/blog/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
-<meta property="article:published_time" content="2020-06-24 11:46:30 &#43;0800 CST" />
+<meta property="article:published_time" content="2022-11-10 22:38:03 &#43;0800 CST" />
 
 
 
@@ -148,13 +145,13 @@
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="https://deqinglv.github.io/blog/about/">About</a>
+                    <a href="https://deqinglv.github.io/blog/post/my-powerfull-terminal/">My Powerfull Terminal</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Wed, 24 Jun 2020 11:46:30 &#43;0800"
+                  Created <relative-time datetime="Thu, 10 Nov 2022 22:38:03 &#43;0800"
                     class="no-wrap">
-                    Wed, 24 Jun 2020 11:46:30 &#43;0800</relative-time>
+                    Thu, 10 Nov 2022 22:38:03 &#43;0800</relative-time>
 
                   
                 </div>
@@ -185,7 +182,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      2 Words
+                      279 Words
                     
 
                   </div>
@@ -197,8 +194,101 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><p>About me</p>
-</article>
+                <article class="markdown-body entry-content container-lg"><p>iTerm2 + zsh + oh-my-zsh The Most PowerFull Terminal on my macbook.</p>
+<h1 id="install">Install</h1>
+<pre tabindex="0"><code># Install iterm2  or go to download page: https://www.iterm2.com/downloads.html
+brew install --cask iterm2
+
+# Install zsh
+brew install zsh
+
+# Install oh-my-zsh
+
+sh -c &#34;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&#34;
+</code></pre><h1 id="decorate-our-iterm2">Decorate Our iTerm2</h1>
+<h2 id="getting-rid-of-the-title-bar">Getting rid of the title bar</h2>
+<p>Go to iTerm2 &gt; Appearance &gt; General &gt; Theme: Dark</p>
+<h2 id="iterm2-theme">iTerm2 theme</h2>
+<p>Go to iTerm2 &gt; Preferences &gt; Profiles &gt; Colors Tab</p>
+<p>Get the iTerm color settings:</p>
+<ul>
+<li>
+<p><a href="https://github.com/topics/iterm2-theme">https://github.com/topics/iterm2-theme</a></p>
+</li>
+<li>
+<p><a href="https://iterm2colorschemes.com">https://iterm2colorschemes.com</a></p>
+</li>
+</ul>
+<p><a href="https://github.com/sindresorhus/iterm2-snazzy/raw/main/Snazzy.itermcolors">Snazzy.itermcolors</a> looks goot to me</p>
+<h2 id="iterm2-backgroundiamge">iTerm2 BackgroundIamge</h2>
+<p>Go to iTerm2 -&gt; Preferences -&gt; Profiles -&gt; window -&gt; Background Image.
+Choose your favorite wallpaper and set Blending.</p>
+<h2 id="zsh-theme-powerlevel10k">Zsh Theme: Powerlevel10k</h2>
+<h3 id="install-powerlevel10k">Install <a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k</a></h3>
+<pre tabindex="0"><code>git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo &#39;source ~/powerlevel10k/powerlevel10k.zsh-theme&#39; &gt;&gt;~/.zshrc
+</code></pre><p>Prompt Style use &lsquo;Pure&rsquo;</p>
+<h2 id="hide-username--hostname">Hide Username &amp; Hostname</h2>
+<pre tabindex="0"><code>echo &#39;prompt_context() {}&#39; &gt;&gt; ~/.zshrc
+</code></pre><h1 id="manage-plugins">Manage Plugins</h1>
+<h2 id="zsh-syntax-highlighting">zsh-syntax-highlighting</h2>
+<ol>
+<li>
+<p>Clone this repository in oh-my-zsh&rsquo;s plugins directory:</p>
+<pre tabindex="0"><code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+</code></pre></li>
+<li>
+<p>Activate the plugin in ~/.zshrc:</p>
+<pre tabindex="0"><code>plugins=( [plugins...] zsh-syntax-highlighting)
+</code></pre><p>Note that zsh-syntax-highlighting must be the last plugin sourced.</p>
+</li>
+<li>
+<p>Restart zsh (such as by opening a new instance of your terminal emulator).</p>
+<pre tabindex="0"><code>exec zsh
+</code></pre></li>
+</ol>
+<h2 id="zsh-autosuggestions">zsh-autosuggestions</h2>
+<ol>
+<li>
+<p>Clone this repository in oh-my-zsh&rsquo;s plugins directory:</p>
+<pre tabindex="0"><code>git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+</code></pre></li>
+<li>
+<p>Activate the plugin in ~/.zshrc:</p>
+<pre tabindex="0"><code>plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+)
+</code></pre></li>
+<li>
+<p>Restart zsh (such as by opening a new instance of your terminal emulator).</p>
+<pre tabindex="0"><code>exec zsh
+</code></pre></li>
+</ol>
+<h2 id="autojump">autojump</h2>
+<pre tabindex="0"><code>brew install autojump
+</code></pre><h1 id="common-tips-and-shortcuts">Common Tips and Shortcuts</h1>
+<p>Tips:</p>
+<ul>
+<li>Selection is copied</li>
+<li>command + d :Vertical split screen</li>
+<li>command + shift + d :Horizontal split screen</li>
+<li>command + shift + h :Open the Clipboard (Copy History)</li>
+</ul>
+<h1 id="alias">Alias</h1>
+<p>My alias:</p>
+<pre tabindex="0"><code># navigation aliases
+alias dev=&#34;cd ~/dev/&#34;
+alias personal=&#34;cd ~/persional&#34;
+alias work=&#34;cd ~/work&#34;
+
+# kubectl aliases
+alias k=&#34;kubectl&#34;
+alias kt=&#34;sudo ktctl&#34;
+
+# docker aliases
+alias d=&#34;docker&#34;
+</code></pre></article>
               </div>
             </div>
           </div>

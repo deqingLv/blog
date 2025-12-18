@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://deqinglv.github.io/blog/posts/my-powerfull-terminal/</loc>
-    <lastmod>2022-11-10T22:38:03+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://deqinglv.github.io/blog/posts/</loc>
-    <lastmod>2022-11-10T22:38:03+08:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://deqinglv.github.io/blog/post/git-awesome-tips/</loc>
+    <lastmod>2025-12-15T22:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://deqinglv.github.io/blog/post/</loc>
+    <lastmod>2025-12-15T22:24:00+08:00</lastmod>
+  </url><url>
     <loc>https://deqinglv.github.io/blog/</loc>
+    <lastmod>2025-12-15T22:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://deqinglv.github.io/blog/post/my-powerfull-terminal/</loc>
     <lastmod>2022-11-10T22:38:03+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://deqinglv.github.io/blog/posts/make-blog-with-hugo-github-pages/</loc>
+  </url><url>
+    <loc>https://deqinglv.github.io/blog/post/make-blog-with-hugo-github-pages/</loc>
     <lastmod>2020-06-24T12:27:43+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://deqinglv.github.io/blog/about/</loc>
     <lastmod>2020-06-24T11:46:30+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://deqinglv.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://deqinglv.github.io/blog/tags/</loc>
   </url>
-  
 </urlset>

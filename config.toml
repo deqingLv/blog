@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "山的下午茶"
 theme = "github-style"
 publishDir = "docs"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
   author = "Deqing Lv"
