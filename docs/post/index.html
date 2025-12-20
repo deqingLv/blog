@@ -154,7 +154,7 @@
                 </path>
               </svg>
               Posts
-              <span class="Counter">5</span>
+              <span class="Counter">6</span>
             </a>
           </nav>
           <div class="profile-color-modes js-promo-color-modes-banner-profile isInitialToggle">
@@ -408,7 +408,7 @@
         </path>
       </svg>
       Posts
-      <span class="Counter ">5</span>
+      <span class="Counter ">6</span>
     </a>
   </nav>
 </div>
@@ -422,6 +422,45 @@
         
       
       <ul>
+        
+        <li class="col-12 d-flex width-full py-4 border-bottom color-border-secondary public source">
+          <div class="col-12 d-inline-block">
+            <div class="d-inline-block mb-1">
+              <h3 class="wb-break-all">
+                <a href="https://deqinglv.github.io/blog/post/my-socks-proxy/">Building a SOCKS Proxy with Shadowsocks</a>
+              </h3>
+            </div>
+
+            <div>
+              <div class="col-12 d-inline-block text-gray mb-2 pr-4">
+                <h1 id="building-a-socks-proxy-with-shadowsocks">Building a SOCKS Proxy with Shadowsocks</h1>
+<p>This guide walks you through setting up a Shadowsocks proxy server on an ECS instance.</p>
+<h2 id="step-1-set-up-your-ecs-instance">Step 1: Set Up Your ECS Instance</h2>
+<p>First, purchase an ECS instance running CentOS. I used Alibaba Cloud, which offers 200GB/month of free public network traffic with CDT.</p>
+<h2 id="step-2-install-and-configure-shadowsocks">Step 2: Install and Configure Shadowsocks</h2>
+<p>Log into your ECS instance as root and run the following commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yum install -y docker
+</span></span><span class="line"><span class="cl">docker run -d <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --name ss-server <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -p 8388:8388 <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -e <span class="nv">PASSWORD</span><span class="o">=</span><span class="si">${</span><span class="nv">use</span><span class="p">-your-password</span><span class="si">}</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -e <span class="nv">METHOD</span><span class="o">=</span>aes-256-cfb <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  shadowsocks/shadowsocks-libev
+</span></span></code></pre></div><p><strong>Note:</strong> Replace <code>${use-your-password}</code> with your desired password.</p>
+              </div>
+            </div>
+
+            <div class="f6 text-gray mt-2">
+              
+
+              Created
+              <relative-time datetime=" Sat, 20 Dec 2025 21:49:45 &#43;0800" class="no-wrap"
+                title=" Sat, 20 Dec 2025 21:49:45 &#43;0800">
+                Sat, 20 Dec 2025 21:49:45 &#43;0800
+              </relative-time>
+            </div>
+          </div>
+        </li>
         
         <li class="col-12 d-flex width-full py-4 border-bottom color-border-secondary public source">
           <div class="col-12 d-inline-block">
