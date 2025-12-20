@@ -69,7 +69,7 @@
   <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
     <div class="Header-item mobile-none" style="margin-top: -4px; margin-bottom: -4px;">
       <a class="Header-link" href="https://deqinglv.github.io/blog/">
-        <img class="octicon" height="32" width="32" src="">
+        <img class="octicon" height="32" width="32" src="images/github-mark-white.png">
       </a>
     </div>
     <div class="Header-item d-md-none">
@@ -87,14 +87,13 @@
         class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
         <div class="position-relative">
           
-          <form target="_blank" action="https://www.google.com/search" accept-charset="UTF-8" method="get"
+          <form target="_blank" id="search-form" action="" accept-charset="UTF-8" method="get"
             autocomplete="off">
             <label
               class="Header-search-label form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
               <input type="text"
                 class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
                 name="q" value="" placeholder="Search" autocomplete="off">
-              <input type="hidden" name="q" value="site:https://deqinglv.github.io/blog/">
             </label>
           </form>
           
@@ -104,7 +103,7 @@
 
     <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
       <a class="Header-link " href="https://deqinglv.github.io/blog/">
-        <img class="octicon octicon-mark-github v-align-middle" height="32" width="32" src="">
+        <img class="octicon octicon-mark-github v-align-middle" height="32" width="32" src="images/github-mark-white.png">
       </a>
     </div>
     <div class="Header-item" style="margin-right: 0;">
@@ -433,20 +432,7 @@
 
             <div>
               <div class="col-12 d-inline-block text-gray mb-2 pr-4">
-                <h1 id="building-a-socks-proxy-with-shadowsocks">Building a SOCKS Proxy with Shadowsocks</h1>
-<p>This guide walks you through setting up a Shadowsocks proxy server on an ECS instance.</p>
-<h2 id="step-1-set-up-your-ecs-instance">Step 1: Set Up Your ECS Instance</h2>
-<p>First, purchase an ECS instance running CentOS. I used Alibaba Cloud, which offers 200GB/month of free public network traffic with CDT.</p>
-<h2 id="step-2-install-and-configure-shadowsocks">Step 2: Install and Configure Shadowsocks</h2>
-<p>Log into your ECS instance as root and run the following commands:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yum install -y docker
-</span></span><span class="line"><span class="cl">docker run -d <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --name ss-server <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -p 8388:8388 <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -e <span class="nv">PASSWORD</span><span class="o">=</span><span class="si">${</span><span class="nv">use</span><span class="p">-your-password</span><span class="si">}</span> <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  -e <span class="nv">METHOD</span><span class="o">=</span>aes-256-cfb <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>  shadowsocks/shadowsocks-libev
-</span></span></code></pre></div><p><strong>Note:</strong> Replace <code>${use-your-password}</code> with your desired password.</p>
+                build ss socks proxy
               </div>
             </div>
 
@@ -679,6 +665,9 @@ else {
 
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+<script type="application/javascript" src='https://deqinglv.github.io/blog/js/search.js'></script>
 
 
 

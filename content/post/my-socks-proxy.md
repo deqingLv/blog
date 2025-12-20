@@ -1,10 +1,11 @@
 ---
 title: "Building a SOCKS Proxy with Shadowsocks"
 date: 2025-12-20T21:49:45+08:00
-
+summary: "build ss socks proxy"
 ---
 
 # Building a SOCKS Proxy with Shadowsocks
+
 
 This guide walks you through setting up a Shadowsocks proxy server on an ECS instance.
 

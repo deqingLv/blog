@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>山的下午茶</title>
-    <link>https://deqinglv.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on 山的下午茶</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Dec 2025 21:49:45 +0800</lastBuildDate>
-    <atom:link href="https://deqinglv.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Dec 2025 22:35:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a SOCKS Proxy with Shadowsocks</title>
-      <link>https://deqinglv.github.io/blog/post/my-socks-proxy/</link>
+      <link>http://localhost:1313/blog/post/my-socks-proxy/</link>
       <pubDate>Sat, 20 Dec 2025 21:49:45 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/post/my-socks-proxy/</guid>
+      <guid>http://localhost:1313/blog/post/my-socks-proxy/</guid>
       <description>&lt;h1 id=&#34;building-a-socks-proxy-with-shadowsocks&#34;&gt;Building a SOCKS Proxy with Shadowsocks&lt;/h1&gt;&#xA;&lt;p&gt;This guide walks you through setting up a Shadowsocks proxy server on an ECS instance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-1-set-up-your-ecs-instance&#34;&gt;Step 1: Set Up Your ECS Instance&lt;/h2&gt;&#xA;&lt;p&gt;First, purchase an ECS instance running CentOS. I used Alibaba Cloud, which offers 200GB/month of free public network traffic with CDT.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-install-and-configure-shadowsocks&#34;&gt;Step 2: Install and Configure Shadowsocks&lt;/h2&gt;&#xA;&lt;p&gt;Log into your ECS instance as root and run the following commands:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yum install -y docker&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -d &lt;span class=&#34;se&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --name ss-server &lt;span class=&#34;se&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  -p 8388:8388 &lt;span class=&#34;se&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  -e &lt;span class=&#34;nv&#34;&gt;PASSWORD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;use&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-your-password&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  -e &lt;span class=&#34;nv&#34;&gt;METHOD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;aes-256-cfb &lt;span class=&#34;se&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  shadowsocks/shadowsocks-libev&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Replace &lt;code&gt;${use-your-password}&lt;/code&gt; with your desired password.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI智能体记忆系统全解析：从工具到分身的演进之路</title>
-      <link>https://deqinglv.github.io/blog/post/memory-of-ai-agent/</link>
+      <link>http://localhost:1313/blog/post/memory-of-ai-agent/</link>
       <pubDate>Sat, 20 Dec 2025 20:46:20 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/post/memory-of-ai-agent/</guid>
+      <guid>http://localhost:1313/blog/post/memory-of-ai-agent/</guid>
       <description>深入探讨AI智能体记忆系统的核心概念、技术实现与发展历程。从记忆的定义与分类出发，系统介绍短期记忆、长期记忆、情景记忆等不同类型，分析记忆与知识、RAG的关系。详细阐述记忆系统从无记忆时代到认知级记忆的五个发展阶段。探讨记忆共享的技术挑战与解决方案，并展望AI分身作为数字延伸的未来可能性。</description>
     </item>
     <item>
       <title>AI Agent 认知变化：从工具到伙伴的演进</title>
-      <link>https://deqinglv.github.io/blog/post/ai-agent-cognitive-evolution/</link>
+      <link>http://localhost:1313/blog/post/ai-agent-cognitive-evolution/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/post/ai-agent-cognitive-evolution/</guid>
+      <guid>http://localhost:1313/blog/post/ai-agent-cognitive-evolution/</guid>
       <description>探讨 AI Agent 认知能力的发展历程，以及我们对 AI Agent 认知的变化：从简单的工具到智能伙伴的转变</description>
     </item>
     <item>
       <title>Git awesome tips</title>
-      <link>https://deqinglv.github.io/blog/post/git-awesome-tips/</link>
+      <link>http://localhost:1313/blog/post/git-awesome-tips/</link>
       <pubDate>Mon, 15 Dec 2025 22:24:00 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/post/git-awesome-tips/</guid>
+      <guid>http://localhost:1313/blog/post/git-awesome-tips/</guid>
       <description>some awesome tips of git</description>
     </item>
     <item>
       <title>My Powerfull Terminal</title>
-      <link>https://deqinglv.github.io/blog/post/my-powerfull-terminal/</link>
+      <link>http://localhost:1313/blog/post/my-powerfull-terminal/</link>
       <pubDate>Thu, 10 Nov 2022 22:38:03 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/post/my-powerfull-terminal/</guid>
+      <guid>http://localhost:1313/blog/post/my-powerfull-terminal/</guid>
       <description>iTerm2 + zsh + oh-my-zsh The Most PowerFull Terminal on my macbook</description>
     </item>
     <item>
       <title>Make blog with hugo and github-pages</title>
-      <link>https://deqinglv.github.io/blog/post/make-blog-with-hugo-github-pages/</link>
+      <link>http://localhost:1313/blog/post/make-blog-with-hugo-github-pages/</link>
       <pubDate>Wed, 24 Jun 2020 12:27:43 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/post/make-blog-with-hugo-github-pages/</guid>
+      <guid>http://localhost:1313/blog/post/make-blog-with-hugo-github-pages/</guid>
       <description>基于GitHub Pages + Hugo搭建的个人博客，给大家介绍下搭建过程</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://deqinglv.github.io/blog/about/</link>
+      <link>http://localhost:1313/blog/about/</link>
       <pubDate>Wed, 24 Jun 2020 11:46:30 +0800</pubDate>
-      <guid>https://deqinglv.github.io/blog/about/</guid>
+      <guid>http://localhost:1313/blog/about/</guid>
       <description>&lt;p&gt;About me&lt;/p&gt;</description>
     </item>
   </channel>

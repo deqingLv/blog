@@ -6,6 +6,9 @@ publishDir = "docs"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+
+
+
 [params]
   author = "Deqing Lv"
   description = "Alibaba Software Engineer"
@@ -15,3 +18,19 @@ pygmentsUseClasses = true
   avatar = "https://avatars3.githubusercontent.com/u/6064297?s=460&u=59de91a71b664110669fa87ad15110e12e3250ad&v=4"
   url = "https://deqinglv.github.io/blog/"
   keywords = "blog, Deqing, Deqing Lv, google analytics"
+  headerIcon = "images/github-mark-white.png"
+  lastmod = true
+  enableSearch = true
+
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
