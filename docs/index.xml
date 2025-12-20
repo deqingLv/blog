@@ -6,8 +6,15 @@
     <description>Recent content on 山的下午茶</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 20:46:20 +0800</lastBuildDate>
     <atom:link href="https://deqinglv.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI智能体记忆系统全解析：从工具到分身的演进之路</title>
+      <link>https://deqinglv.github.io/blog/post/memory-of-ai-agent/</link>
+      <pubDate>Sat, 20 Dec 2025 20:46:20 +0800</pubDate>
+      <guid>https://deqinglv.github.io/blog/post/memory-of-ai-agent/</guid>
+      <description>深入探讨AI智能体记忆系统的核心概念、技术实现与发展历程。从记忆的定义与分类出发，系统介绍短期记忆、长期记忆、情景记忆等不同类型，分析记忆与知识、RAG的关系。详细阐述记忆系统从无记忆时代到认知级记忆的五个发展阶段。探讨记忆共享的技术挑战与解决方案，并展望AI分身作为数字延伸的未来可能性。</description>
+    </item>
     <item>
       <title>AI Agent 认知变化：从工具到伙伴的演进</title>
       <link>https://deqinglv.github.io/blog/post/ai-agent-cognitive-evolution/</link>
