@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://deqinglv.github.io/blog/post/</loc>
-    <lastmod>2025-12-20T22:41:25+08:00</lastmod>
+    <lastmod>2025-12-30T23:41:15+08:00</lastmod>
   </url><url>
     <loc>https://deqinglv.github.io/blog/</loc>
-    <lastmod>2025-12-20T22:41:25+08:00</lastmod>
+    <lastmod>2025-12-30T23:41:15+08:00</lastmod>
+  </url><url>
+    <loc>https://deqinglv.github.io/blog/post/doing-things-right-and-doing-right-thins/</loc>
+    <lastmod>2025-12-30T23:41:15+08:00</lastmod>
+  </url><url>
+    <loc>https://deqinglv.github.io/blog/post/langchain-1-agent-demo/</loc>
+    <lastmod>2025-12-30T16:53:46+08:00</lastmod>
   </url><url>
     <loc>https://deqinglv.github.io/blog/post/my-socks-proxy/</loc>
     <lastmod>2025-12-20T22:41:25+08:00</lastmod>
@@ -29,7 +35,13 @@
     <loc>https://deqinglv.github.io/blog/about/</loc>
     <lastmod>2025-12-13T00:01:08+08:00</lastmod>
   </url><url>
+    <loc>https://deqinglv.github.io/blog/posts/mac-productivity-tools/</loc>
+    <lastmod>2025-12-27T20:43:48+08:00</lastmod>
+  </url><url>
     <loc>https://deqinglv.github.io/blog/categories/</loc>
+  </url><url>
+    <loc>https://deqinglv.github.io/blog/posts/</loc>
+    <lastmod>2025-12-27T20:43:48+08:00</lastmod>
   </url><url>
     <loc>https://deqinglv.github.io/blog/tags/</loc>
   </url>
