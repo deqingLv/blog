@@ -1,7 +1,7 @@
 ---
 title: "LangChain 1.0 React Agent Demo：构建智能推理代理"
 date: 2025-12-30T15:00:06+08:00
-draft: false
+draft: true
 
 keywords: ["LangChain", "React Agent", "Python", "AI Agent", "LLM"]
 summary: "基于 LangChain 1.0 版本，使用 Python 开发一个 React（Reasoning and Acting）模式的智能代理 demo，展示如何构建能够推理和行动的 AI Agent"
